@@ -96,13 +96,13 @@ layout: mydefault
               <span class="author-block">
                 <a href="https://linyil.com" target="_blank">Linyi Li</a>&nbsp;
                 <a href="https://scholar.google.com/citations?user=wujqvGYAAAAJ&hl=en" target="_blank">Shijie Geng</a>&nbsp;
-                Zhenwen Li&nbsp;
-                Yibo He&nbsp;
-                <a href="https://scholar.google.com/citations?user=Ns6QRcIAAAAJ&hl=zh-CN&oi=sra" target="_blank">Hao Yu</a>&nbsp;
+                *Zhenwen Li&nbsp;
+                *Yibo He&nbsp;
+                <a href="https://scholar.google.com/citations?user=Ns6QRcIAAAAJ&hl=zh-CN&oi=sra" target="_blank">*Hao Yu</a>&nbsp;
               </span>
               <br>
               <span class="author-block">
-                Ziyue Hua&nbsp;
+                *Ziyue Hua&nbsp;
                 Guanghan Ning&nbsp;
                 Siwei Wang&nbsp;
                 <a href="https://taoxiease.github.io/" target="_blank">Tao Xie</a>&nbsp;
@@ -114,7 +114,8 @@ layout: mydefault
                 Rutgers University&nbsp;
                 Peking University&nbsp;<br>
                 ByteDance Inc&nbsp;
-                The Hong Kong Polytechnic University
+                The Hong Kong Polytechnic University<br>
+                (* denotes to equal contribution)
               </span>
             </div>
 
