@@ -2,3 +2,5 @@
 .idea
 inficoder-eval.github.io.zip
 github_token.txt
+_site/
+.jekyll-scale/

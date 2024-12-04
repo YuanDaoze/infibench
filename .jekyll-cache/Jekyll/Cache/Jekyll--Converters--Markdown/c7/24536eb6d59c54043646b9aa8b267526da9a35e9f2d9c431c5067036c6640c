@@ -1,4 +1,4 @@
-<html>
+I"ª/<html>
 
 <head>
   <meta charset="utf-8" />
@@ -2139,7 +2139,6 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
     <div class="columns is-centered has-text-centered">
       <div class="column is-three-fifths">
         <h3 class="title is-3">More Leaderboards</h3>
-        <p>In addition to InfiBench, it is recommended to comprehensively understand LLM coding ability through a diverse set of benchmarks and leaderboards, such as:</p>
         <div class="content has-text-justified">
         <ol>
           <li>
@@ -2233,3 +2232,4 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
 </body>
 
 </html>
+:ET

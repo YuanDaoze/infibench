@@ -89,16 +89,33 @@ layout: mydefault
             <h1 class="title is-1 publication-title">InfiBench: Evaluating the Question-Answering Capabilities of Code LLMs
             </h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">
+              <!-- <span class="author-block">
                 The InfiCoder Team
+              </span> -->
+              <br>
+              <span class="author-block">
+                <a href="https://linyil.com" target="_blank">Linyi Li</a>&nbsp;
+                <a href="https://scholar.google.com/citations?user=wujqvGYAAAAJ&hl=en" target="_blank">Shijie Geng</a>&nbsp;
+                Zhenwen Li&nbsp;
+                Yibo He&nbsp;
+                <a href="https://scholar.google.com/citations?user=Ns6QRcIAAAAJ&hl=zh-CN&oi=sra" target="_blank">Hao Yu</a>&nbsp;
               </span>
               <br>
-              <!-- <span class="author-block">
-                Main Maintainer: <a href="mailto:xxxxx">xxxxx</a>
-              </span> -->
-              <!-- <span class="author-block">
-                <a href="https://xxx.github.io/">xxxxxx</a><sup>1</sup></span>
-			        <br/> -->
+              <span class="author-block">
+                Ziyue Hua&nbsp;
+                Guanghan Ning&nbsp;
+                Siwei Wang&nbsp;
+                <a href="https://taoxiease.github.io/" target="_blank">Tao Xie</a>&nbsp;
+                <a href="https://www4.comp.polyu.edu.hk/~hongxyang/" target="_blank">Hongxia Yang</a>
+              </span>
+              <hr>
+              <span class="author-block">
+                Simon Fraser University&nbsp;
+                Rutgers University&nbsp;
+                Peking University&nbsp;<br>
+                ByteDance Inc&nbsp;
+                The Hong Kong Polytechnic University
+              </span>
             </div>
 
             <div class="is-size-5 publication-authors">
@@ -110,18 +127,16 @@ layout: mydefault
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2404.07940"
-                    class="external-link button is-normal is-rounded is-dark" target='_blank'>
+                  <a href="https://arxiv.org/abs/2404.07940" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
-                    <span>Report</span>
+                    <span>Paper</span>
                   </a>
                 </span>
                 <!-- Dataset Link. -->
                 <span class="link-block">
-                  <a href="https://github.com/infi-coder/infibench-evaluation-harness/"
-                     class="external-link button is-normal is-rounded is-dark" target='_blank'>
+                  <a href="https://github.com/infi-coder/infibench-evaluation-harness/" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -135,17 +150,29 @@ layout: mydefault
                     <span>Evaluation Repo</span>
                   </a> -->
                 </span>
-                <!-- Twitter Link. -->
-                <!-- <span class="link-block">
-                  <a href="https://twitter.com/taoyds/status/1595086401309388801"
-                    class="external-link button is-normal is-rounded is-dark">
+                <!-- Slides Link. -->
+                <span class="link-block">
+                  <a href="https://cs.sfu.ca/~linyi/res/pub/infibench_slides.pdf" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
-                      <i class="fab fa-twitter"></i>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  style="fill:white"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7 .1-32-27.4-57.7-61.7-57.7zm156.6 90l-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7 .3-56.6 .3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7 .3 92.8 .3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
                     </span>
-                    <span>Twitter</span>
+                    <span>Slides</span>
                   </a>
-                </span> -->
+                </span>
+                <!-- Slides Link. -->
+                <span class="link-block">
+                  <a href="https://openreview.net/forum?id=E8EAeyTxOy#discussion" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  style="fill:white"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 96a160 160 0 1 0 0 320 160 160 0 1 0 0-320zM448 256A224 224 0 1 1 0 256a224 224 0 1 1 448 0z"/></svg>
+                    </span>
+                    <span>OpenReview</span>
+                  </a>
+                </span>
               </div>
+            </div>
+
+            <div class="column has-text-centered">
+              <a href="https://neurips.cc/virtual/2024/poster/97797" target="_blank">Appear at NeurIPS 2024 Datasets and Benchmarks Track</a>
             </div>
           </div>
         </div>
@@ -377,7 +404,8 @@ layout: mydefault
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Try the Benchmark!</h2>
-          <p>Note: we only support Linux environment yet.</p>
+          <p>We only support Linux environment yet.</p>
+          <p><a href="https://github.com/infi-coder/infibench-evaluation-harness/blob/main/Dockerfile-infibench" target="_blank">Reference Docker file</a> (contributed by <a href="https://likaixin2000.github.io/" target="_blank">Kaixin Li</a>).</p>
           <div class="content has-text-justified">
             <ol>
               <li>Convert or save your model weights in Hugging Face Transformers format.</li>
@@ -409,7 +437,7 @@ layout: mydefault
           <h2 class="title is-3">Feedback</h2>
           <div class="content has-text-justified">
             <script src="https://giscus.app/client.js"
-                    data-repo="infi-coder/inficoder-eval"
+                    data-repo="infi-coder/infibench"
                     data-repo-id="R_kgDOKxa6cg"
                     data-category-id="DIC_kwDOKxa6cs4CbSFx"
                     data-mapping="pathname"
@@ -423,11 +451,9 @@ layout: mydefault
                     async>
             </script>
             <br>
-            <p>You can also give us feedback in the discussion issue posts of our repositories:</p>
+            <p>You can also give us feedback in the issue section of our code repository:</p>
             <ul>
-              <li><a href="https://github.com/infi-coder/inficoder-eval/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval%2Fissues%2F1?label=General%20Discussion"></a></li>
-              <!-- <li><a href="https://github.com/infi-coder/ffqa-evaluation-harness/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval?label=Inference%20Framework%20Discussion"></a></li>
-              <li><a href="https://github.com/infi-coder/inficoder-eval-framework/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval?label=Evaluation%20Framework%20Discussion"></a></li> -->
+              <li><a href="https://github.com/infi-coder/infibench-evaluation-harness/issues"><img alt="Static Badge" src="https://img.shields.io/badge/infibench_evaluation_harness_issue-blue"></a></li>
             </ul>
           </div>
         </div>
@@ -439,17 +465,78 @@ layout: mydefault
     <div class="container is-max-desktop content">
       <div class="bibtex-body">
         <h2 class="title">BibTeX</h2>
-        <pre><code>@misc{inficodereval,
-  author = {InfiCoderTeam},
-  title = {InfiBench: Evaluating the Question-Answering Capabilities of Code LLMs},
-  year = {2024},
-  publisher = {Github Pages},
-  howpublished = "\url{https://infi-coder.github.io/infibench/}"
+        <pre><code>@inproceedings{
+li2024infibench,
+title={InfiBench: Evaluating the Question-Answering Capabilities of Code Large Language Models},
+author={Linyi Li and Shijie Geng and Zhenwen Li and Yibo He and Hao Yu and Ziyue Hua and Guanghan Ning and Siwei Wang and Tao Xie and Hongxia Yang},
+booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2024},
+url={https://openreview.net/forum?id=E8EAeyTxOy}
 }</code></pre>
       </div>
     </div>
   </section>
 
+  <section class="section" id="notes">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-three-fifths">
+        <h3 class="title is-3">More Leaderboards</h3>
+        <p>In addition to InfiBench, it is recommended to comprehensively understand LLM coding ability through a diverse set of benchmarks and leaderboards, such as:</p>
+        <div class="content has-text-justified">
+        <ol>
+          <li>
+            <a href="https://bigcode-bench.github.io/">BigCodeBench</a>
+          </li>
+          <li>
+            <a href="https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard">Big Code Models Leaderboard</a>
+          </li>
+          <li>
+            <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">Chatbot Arena Leaderboard</a>
+          </li>
+          <li>
+            <a href="https://github.com/amazon-science/cceval">CrossCodeEval</a>
+          </li>
+          <li>
+            <a href="https://fudanselab-classeval.github.io/">ClassEval</a>
+          </li>
+          <li>
+            <a href="https://crux-eval.github.io/leaderboard.html">CRUXEval</a>
+          </li>
+          <li>
+            <a href="https://codetlingua.github.io/leaderboard.html">Code Lingua</a>
+          </li>
+          <li><a href="https://evo-eval.github.io/">Evo-Eval</a></li>
+          <li><a href="https://huggingface.co/spaces/EffiBench/effibench-leaderboard">EffiBench</a></li>
+          <li>
+            <a href="https://github.com/01-ai/HumanEval.jl">HumanEval.jl - Julia version HumanEval with EvalPlus test
+              cases</a>
+          </li>
+          <li>
+            <a href="https://livecodebench.github.io/leaderboard.html">LiveCodeBench</a>
+          </li>
+          <li>
+            <a href="https://sparksofagi.github.io/MHPP/">MHPP</a>
+          </li>
+          <li>
+            <a href="https://github.com/THUDM/NaturalCodeBench">NaturalCodeBench</a>
+          </li>
+          <li><a href="https://github.com/Leolty/repobench">RepoBench</a></li>
+          <li><a href="https://www.swebench.com/">SWE-bench</a></li>
+          <li><a href="https://openai.com/index/introducing-swe-bench-verified/">SWE-bench Verified</a></li>
+          <li>
+            <a href="https://leaderboard.tabbyml.com/">TabbyML Leaderboard</a>
+          </li>
+          <li>
+            <a href="https://llm4softwaretesting.github.io/">TestEval</a>
+          </li>
+          <li>
+            <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a>
+          </li>
+        </ol>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="footer">
     <div class="container">

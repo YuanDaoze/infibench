@@ -1,4 +1,4 @@
-<html>
+I"Ÿ'<html>
 
 <head>
   <meta charset="utf-8" />
@@ -2106,12 +2106,14 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Feedback</h2>
           <div class="content has-text-justified">
-            <script src="https://giscus.app/client.js" data-repo="infi-coder/infibench" data-repo-id="R_kgDOKxa6cg" data-category-id="DIC_kwDOKxa6cs4CbSFx" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
+            <script src="https://giscus.app/client.js" data-repo="infi-coder/inficoder-eval" data-repo-id="R_kgDOKxa6cg" data-category-id="DIC_kwDOKxa6cs4CbSFx" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
             </script>
             <br />
-            <p>You can also give us feedback in the issue section of our code repository:</p>
+            <p>You can also give us feedback in the discussion issue posts of our repositories:</p>
             <ul>
-              <li><a href="https://github.com/infi-coder/infibench-evaluation-harness/issues"><img alt="Static Badge" src="https://img.shields.io/badge/infibench_evaluation_harness_issue-blue" /></a></li>
+              <li><a href="https://github.com/infi-coder/inficoder-eval/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval%2Fissues%2F1?label=General%20Discussion" /></a></li>
+              <!-- <li><a href="https://github.com/infi-coder/ffqa-evaluation-harness/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval?label=Inference%20Framework%20Discussion"></a></li>
+              <li><a href="https://github.com/infi-coder/inficoder-eval-framework/issues/1"><img alt="Static Badge" src="https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Finfi-coder%2Finficoder-eval?label=Evaluation%20Framework%20Discussion"></a></li> -->
             </ul>
           </div>
         </div>
@@ -2123,78 +2125,17 @@
     <div class="container is-max-desktop content">
       <div class="bibtex-body">
         <h2 class="title">BibTeX</h2>
-        <pre><code>@inproceedings{
-li2024infibench,
-title={InfiBench: Evaluating the Question-Answering Capabilities of Code Large Language Models},
-author={Linyi Li and Shijie Geng and Zhenwen Li and Yibo He and Hao Yu and Ziyue Hua and Guanghan Ning and Siwei Wang and Tao Xie and Hongxia Yang},
-booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-year={2024},
-url={https://openreview.net/forum?id=E8EAeyTxOy}
+        <pre><code>@misc{inficodereval,
+  author = {InfiCoderTeam},
+  title = {InfiBench: Evaluating the Question-Answering Capabilities of Code LLMs},
+  year = {2024},
+  publisher = {Github Pages},
+  howpublished = "\url{https://infi-coder.github.io/infibench/}"
 }</code></pre>
       </div>
     </div>
   </section>
 
-  <section class="section" id="notes">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-three-fifths">
-        <h3 class="title is-3">More Leaderboards</h3>
-        <p>In addition to InfiBench, it is recommended to comprehensively understand LLM coding ability through a diverse set of benchmarks and leaderboards, such as:</p>
-        <div class="content has-text-justified">
-        <ol>
-          <li>
-            <a href="https://bigcode-bench.github.io/">BigCodeBench</a>
-          </li>
-          <li>
-            <a href="https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard">Big Code Models Leaderboard</a>
-          </li>
-          <li>
-            <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">Chatbot Arena Leaderboard</a>
-          </li>
-          <li>
-            <a href="https://github.com/amazon-science/cceval">CrossCodeEval</a>
-          </li>
-          <li>
-            <a href="https://fudanselab-classeval.github.io/">ClassEval</a>
-          </li>
-          <li>
-            <a href="https://crux-eval.github.io/leaderboard.html">CRUXEval</a>
-          </li>
-          <li>
-            <a href="https://codetlingua.github.io/leaderboard.html">Code Lingua</a>
-          </li>
-          <li><a href="https://evo-eval.github.io/">Evo-Eval</a></li>
-          <li><a href="https://huggingface.co/spaces/EffiBench/effibench-leaderboard">EffiBench</a></li>
-          <li>
-            <a href="https://github.com/01-ai/HumanEval.jl">HumanEval.jl - Julia version HumanEval with EvalPlus test
-              cases</a>
-          </li>
-          <li>
-            <a href="https://livecodebench.github.io/leaderboard.html">LiveCodeBench</a>
-          </li>
-          <li>
-            <a href="https://sparksofagi.github.io/MHPP/">MHPP</a>
-          </li>
-          <li>
-            <a href="https://github.com/THUDM/NaturalCodeBench">NaturalCodeBench</a>
-          </li>
-          <li><a href="https://github.com/Leolty/repobench">RepoBench</a></li>
-          <li><a href="https://www.swebench.com/">SWE-bench</a></li>
-          <li><a href="https://openai.com/index/introducing-swe-bench-verified/">SWE-bench Verified</a></li>
-          <li>
-            <a href="https://leaderboard.tabbyml.com/">TabbyML Leaderboard</a>
-          </li>
-          <li>
-            <a href="https://llm4softwaretesting.github.io/">TestEval</a>
-          </li>
-          <li>
-            <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a>
-          </li>
-        </ol>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <footer class="footer">
     <div class="container">
@@ -2233,3 +2174,4 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
 </body>
 
 </html>
+:ET

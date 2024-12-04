@@ -1,4 +1,4 @@
-<html>
+I"›/<html>
 
 <head>
   <meta charset="utf-8" />
@@ -2137,10 +2137,9 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
 
   <section class="section" id="notes">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-three-fifths">
+      <div class="column is-four-fifths">
         <h3 class="title is-3">More Leaderboards</h3>
-        <p>In addition to InfiBench, it is recommended to comprehensively understand LLM coding ability through a diverse set of benchmarks and leaderboards, such as:</p>
-        <div class="content has-text-justified">
+        <p style="text-align: left">
         <ol>
           <li>
             <a href="https://bigcode-bench.github.io/">BigCodeBench</a>
@@ -2191,7 +2190,7 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
             <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a>
           </li>
         </ol>
-        </div>
+        </p>
       </div>
     </div>
   </section>
@@ -2233,3 +2232,4 @@ url={https://openreview.net/forum?id=E8EAeyTxOy}
 </body>
 
 </html>
+:ET
